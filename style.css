@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400;8..144,500;8..144,600;8..144,700;8..144,800;8..144,900;8..144,1000&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Flex', sans-serif;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+  }
+  section{
+    padding: 20px;
+  }
+  .navbar {
+    background-color: #dc3545;
+  }
+  .navbar-brand img{
+    height: 150px;
+    object-fit: cover;
+  }
+  .navbar-dark .navbar-toggler-icon {
+    background-color: #343a40;
+
+  }
+  .jumbotron img{
+    border: 6px solid #dc3545;
+    border-radius: 50%;
+  }
+  @media (max-width: 500px){
+    .navbar-brand img{
+        height: 100px;
+        width: 80%;
+        object-fit: cover;}
+      
+  }
+  #navbarNav a{
+    font-size: 1.5em;
+    margin: 0 5px;
+  }
+  @media (max-width: 640px){
+    .jumbotron h1{
+        font-size: 2.4em;
+        margin: 5px 0;
+      }
+    }
+  .jumbotron {
+    padding: 2rem;
+    margin-bottom: 0;
+  }
+  .jumbotron img{
+    border: 5px solid #dc3545;
+    border-radius: 50%;
+  }
+  .container {
+    margin-top: 30px;
+  }
+
+  h2 {
+    color: #dc3545;
+  }
+
+  .card {
+    margin-bottom: 20px;
+  }
+  .container ul li{
+    list-style: none;
+    margin-top: 10px;
+  }
+@media (max-width: 445px){
+    .jumbotron h1{
+        font-size: 1.7em;
+        margin: 5px 0;
+      }
+      .jumbotron p{
+        font-size: 1em;
+      }
+}
+@media (max-width: 400px){
+    .navbar-brand img{
+        height: 80px;
+        width: 70%;
+        object-fit: cover;
+      }
+      .jumbotron img{
+        height: 100px;
+        width: 100px;
+        border: 4px solid #dc3545;
+        border-radius: 50%;
+      }
+      .jumbotron h1{
+        font-size: 1.2em;
+        margin: 5px 0;
+      }
+      .jumbotron p{
+        font-size: 0.8em;
+      }
+}
